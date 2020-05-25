@@ -4,6 +4,11 @@ niet meer for some reason... hij deed het namelijk wel */
 
 //////////////////* STYLES BY VERA *//////////////////
 
+svg {
+    width: 100%;
+    height: auto;
+}
+
 /*A AND B*/  
 #AandB:hover #_x31_-left {
     fill: #ff6700;
@@ -140,6 +145,33 @@ niet meer for some reason... hij deed het namelijk wel */
     transition: 1s ease;
 }
 
+button {
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 8px;
+    margin-left: 80%;
+    border-radius: 100px;
+    font-family:'Athelas-Bold';
+    border: thin solid black;
+    background-color: white;
+    transition: all 1s;
+}
+
+button:hover {
+    border: none;
+    animation: colors 3s linear infinite;
+}
+
+@keyframes colors {
+    
+    0%: {background: #ff431a}
+    15% {background: #ff6700}
+    30% {background: #ffce00}
+    45% {background: #e2ff00}
+    60% {background: #00ddb8}
+    75% {background: #e200ff}
+    100% {background: #e20087}
+}
 
 
 
