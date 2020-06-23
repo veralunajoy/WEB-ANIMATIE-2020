@@ -1,0 +1,260 @@
+/* STYLES BY COMPUTER */
+
+.st0 {
+    fill:#FFFFFF;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+.st1 {
+    fill:#999999;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+.st2 {
+    font-family:'Athelas-Bold';
+}
+	
+.st3 {
+    font-size:23px;
+}
+	
+.st4 {
+    fill:#CCCCCC;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+/* STYLES BY VERA */
+
+body svg.heleKunstwerk {
+    height: 35em;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+/*A AND B*/  
+#AandB:hover #_x31_-left {
+    fill: #ff6700;
+    transition: 1s ease;
+}
+
+#AandB:hover #_x31_-middle {
+    fill: #ea5f00;
+    transition: 1s ease;
+}
+
+#AandB:hover #_x31_-right {
+    fill: #ff6700;
+    transition: 1s ease;
+}
+
+/*A OR B*/
+#AorB:hover #_x32_-left {
+    fill: #bfce00;
+    transition: 1s ease;
+}
+
+#AorB:hover #_x32_-middle {
+    fill: #bfce00;
+    transition: 1s ease;
+}
+
+#AorB:hover #_x32_-right {
+    fill: #bfce00;
+    transition: 1s ease;
+}
+
+/*A NOT B*/
+#AnotB:hover #_x33_-left {
+    fill: #ba00db;
+    transition: 1s ease;
+}
+
+#AnotB:hover #_x33_-middle {
+    fill: #e200ff;
+    transition: 1s ease;
+}
+
+#AnotB:hover #_x33_-right {
+    fill: #e200ff;
+    transition: 1s ease;
+}
+
+/*A XOR B*/
+#AxorB:hover #_x34_-left {
+    fill: #e2361a;
+    transition: 1s ease;
+}
+
+#AxorB:hover #_x34_-middle {
+    fill: #ff431a;
+    transition: 1s ease;
+}
+
+#AxorB:hover #_x34_-right {
+    fill: #e2361a;
+    transition: 1s ease;
+}
+
+/*(A AND B) OR C*/ 
+#_x28_AandB_x29_orC:hover #_x35_-left {
+    fill: #ffce00;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-right {
+    fill: #ffce00;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-middle {
+    fill: #ffb800;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-bottom {
+    fill: #ffb800;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-lefty {
+    fill: #ffb800;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-righty {
+    fill: #ffb800;
+    transition: 1s ease;
+}
+
+#_x28_AandB_x29_orC:hover #_x35_-top {
+    fill: #ffb800;
+    transition: 1s ease;
+}
+
+/*A AND (B OR C)*/
+#Aand_x28_BorC_x29_:hover #_x36_-left {
+    fill: #e20087;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-middle {
+    fill: #c1007c;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-top {
+    fill: #c1007c;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-lefty {
+    fill: #c1007c;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-right {
+    fill: #d30088;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-righty {
+    fill: #d30088;
+    transition: 1s ease;
+}
+
+#Aand_x28_BorC_x29_:hover #_x36_-bottom {
+    fill: #d30088;
+    transition: 1s ease;
+}
+
+.titleBO {
+    font-family: 'Athelas';
+    margin: auto;
+}
+
+button {
+    width: 14em;
+    height: 3.5em;
+    font-size: 8px;
+    margin-left: 80%;
+    border-radius: 100px;
+    font-family:'Athelas-Bold';
+    border: thin solid black;
+    background-color: white;
+    transition: all 1s;
+}
+
+button:hover {
+    animation: colors 3s linear infinite;
+}
+
+@keyframes colors {
+    0%: {background: #ff431a}
+    15% {background: #ff6700}
+    30% {background: #ffce00}
+    45% {background: #e2ff00}
+    60% {background: #00ddb8}
+    75% {background: #e200ff}
+    100% {background: #e20087}
+}
+
+/*CLASSES FOR JAVASCRIPT*/
+.oranje {
+    fill: #ff6700;
+}
+
+.donkerOranje {
+    fill: #ea5f00;
+}
+
+.groen {
+    fill: #bfce00;
+}
+
+.paars {
+    fill: #e200ff;
+}
+
+.donkerPaars {
+    fill: #ba00db;
+}
+
+.rood {
+    fill: #ff431a;
+}
+
+.donkerRood {
+    fill: #e2361a
+}
+
+.geel {
+    fill: #ffce00;
+}
+
+.donkerGeel {
+    fill: #ffb800;
+}
+
+.roze {
+    fill: #e20087;
+}
+
+.donkerRoze {
+    fill: #c1007c;
+}
+
+.middenRoze {
+    fill: #d30088;
+}
+
+
+
+
+
+
+
+
