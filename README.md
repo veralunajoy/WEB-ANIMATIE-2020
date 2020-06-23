@@ -2,7 +2,7 @@
 
 <h2> KUNSTWERK </h2>
 <img src="images/boek.jpg" alt="">
-<p> Ik heb mijn 'kunstwerk' uit het boekje '500 Graphic Designs That Matter' gehaald. Dit is het design van John Venn. Het is het Venn Diagram Boolean Operators en dateert uit 1880. Ik wist eerst niet wat het was, maar ik had er wel ideetjes bij wat ik ermee kon doen, dus vandaar dat ik 'm heb gekozen. </p> <img src="images/boolean.jpg" alt="">
+<p> Ik heb mijn 'kunstwerk' uit het boekje '500 Graphic Designs That Matter' gehaald. Dit is het design van John Venn. Het is het Venn Diagram Boolean Operators en dateert uit 1880. Ik wist eerst niet wat het was, maar ik had er wel ideetjes bij wat ik ermee kon doen, dus vandaar dat ik 'm heb gekozen. </p> ![alt text](https://github.com/veralunajoy/WEB-ANIMATION-2020/
 <p> Na wat onderzoek blijkt het een grafische wiskundige voorstelling van logische relaties tussen meerdere verzamlingen te zijn. Dat klinkt heel ingewikkeld, maar dit maakt het wat duidelijker:</p>
 
 <img src="images/diagram1.jpg" alt=""> <img src="images/diagram2.jpg" alt="">
