@@ -26,3 +26,4 @@ Omdat het design in zwart-wit (en grijs) is, wou ik natuurlijk wat kleur toevoeg
   <li> Hulp: jorien korn en jemiah sewradj </li>
   <li> Afbeelding boek: https://www.phaidon.com/resource/9780714873848-photo-1.jpg </li>
   <li> Afbeelding Boolean Operators: https://i.pinimg.com/originals/17/a8/aa/17a8aa62c4bb9da23cd765ce3986bdf0.jpg </li>
+  <li> Hulp bij svg: https://css-tricks.com/svg-properties-and-css/#:~:text=There%20are%20many%20Scalable%20Vector,as%20font%2Dsize%20or%20opacity%20. </li>
