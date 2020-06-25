@@ -18,12 +18,13 @@ Allereerst moest ik het natuurlijk na-maken in Illustrator!
 
 Omdat het design in zwart-wit (en grijs) is, wou ik natuurlijk wat kleur toevoegen! Mijn idee was om elk diagrammetje een eigen kleur te geven. De kleur komt tevoorschijn met een ```:hover``` en ze krijgen allemaal kleur als je op de knop klikt.
 
+<img  height="200" src="images/hover.png" alt="">
+
 ## **BRONNEN**
-<ul>
-  <li> Info over Venn Diagram en afbeeldingen: https://www.lucidchart.com/pages/nl/wat-is-een-venndiagram </li>
-  <li> Gekleurde button: https://www.youtube.com/watch?v=FYqUT4nQzPk </li>
-  <li> Center svg: https://www.tutorialspoint.com/Align-HTML5-SVG-to-the-center-of-the-screen </li>
-  <li> Hulp: jorien korn en jemiah sewradj </li>
-  <li> Afbeelding boek: https://www.phaidon.com/resource/9780714873848-photo-1.jpg </li>
-  <li> Afbeelding Boolean Operators: https://i.pinimg.com/originals/17/a8/aa/17a8aa62c4bb9da23cd765ce3986bdf0.jpg </li>
-  <li> Hulp bij svg: https://css-tricks.com/svg-properties-and-css/#:~:text=There%20are%20many%20Scalable%20Vector,as%20font%2Dsize%20or%20opacity%20. </li>
+* Info over Venn Diagram en afbeeldingen: https://www.lucidchart.com/pages/nl/wat-is-een-venndiagram
+* Gekleurde button: https://www.youtube.com/watch?v=FYqUT4nQzPk 
+* Center svg: https://www.tutorialspoint.com/Align-HTML5-SVG-to-the-center-of-the-screen
+* Hulp: Jorien Korn, Jemiah Sewradj en Roy van Dijk
+* Afbeelding boek: https://www.phaidon.com/resource/9780714873848-photo-1.jpg 
+* Afbeelding Boolean Operators: https://i.pinimg.com/originals/17/a8/aa/17a8aa62c4bb9da23cd765ce3986bdf0.jpg
+* Hulp bij svg: https://css-tricks.com/svg-properties-and-css/#:~:text=There%20are%20many%20Scalable%20Vector,as%20font%2Dsize%20or%20opacity%20.
