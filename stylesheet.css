@@ -1,41 +1,41 @@
 /* STYLES BY COMPUTER */
 
 .st0 {
-    fill:#FFFFFF;
-    stroke:#000000;
-    stroke-miterlimit:10;
+    fill: #FFFFFF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
 }
 
 .st1 {
-    fill:#999999;
-    stroke:#000000;
-    stroke-miterlimit:10;
+    fill: #999999;
+    stroke: #000000;
+    stroke-miterlimit: 10;
 }
 
 .st2 {
-    font-family:'Athelas-Bold';
+    font-family: 'Athelas-Bold';
 }
-	
+
 .st3 {
-    font-size:23px;
+    font-size: 23px;
 }
-	
+
 .st4 {
-    fill:#CCCCCC;
-    stroke:#000000;
-    stroke-miterlimit:10;
+    fill: #CCCCCC;
+    stroke: #000000;
+    stroke-miterlimit: 10;
 }
 
 /* STYLES BY VERA */
 
 body svg.heleKunstwerk {
     height: 35em;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-/*A AND B*/  
+/*A AND B*/
 #AandB:hover #_x31_-left {
     fill: #ff6700;
     transition: 1s ease;
@@ -99,7 +99,7 @@ body svg.heleKunstwerk {
     transition: 1s ease;
 }
 
-/*(A AND B) OR C*/ 
+/*(A AND B) OR C*/
 #_x28_AandB_x29_orC:hover #_x35_-left {
     fill: #ffce00;
     transition: 1s ease;
@@ -171,36 +171,383 @@ body svg.heleKunstwerk {
     transition: 1s ease;
 }
 
+
+/*TITLE BOOLEAN OPERATORS*/
 .titleBO {
     font-family: 'Athelas';
-    margin: auto;
+    margin: auto 0;
+    text-align: center;
+    vertical-align: middle;
 }
 
-button {
+.container {
+    position: relative;
+}
+
+.titleBO:hover {
+    animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*KNOPJE IN COLOR*/
+.kleurenKnop {
     width: 14em;
-    height: 3.5em;
-    font-size: 8px;
-    margin-left: 80%;
+    height: 4em;
+    font-size: 16px;
+    right: 5%;
+    top: 10%;
     border-radius: 100px;
-    font-family:'Athelas-Bold';
+    font-family: 'Athelas-Bold';
     border: thin solid black;
     background-color: white;
     transition: all 1s;
+    position: absolute;
 }
 
-button:hover {
+.kleurenKnop:hover {
     animation: colors 3s linear infinite;
 }
 
 @keyframes colors {
-    0%: {background: #ff431a}
-    15% {background: #ff6700}
-    30% {background: #ffce00}
-    45% {background: #e2ff00}
-    60% {background: #00ddb8}
-    75% {background: #e200ff}
-    100% {background: #e20087}
+    0%: {
+        background: #ff431a
+    }
+
+    15% {
+        background: #ff6700
+    }
+
+    30% {
+        background: #ffce00
+    }
+
+    45% {
+        background: #e2ff00
+    }
+
+    60% {
+        background: #00ddb8
+    }
+
+    75% {
+        background: #e200ff
+    }
+
+    100% {
+        background: #e20087
+    }
 }
+
+
+/*CIRKELS*/
+
+/*CIRKEL 1 DIE GROTER WORDT*/
+.cirkel1 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.cirkel1:hover {
+    animation: bigger 2s linear infinite;
+}
+
+@keyframes bigger {
+    0% {
+        transform: scale(1);
+        background-color: #e200ff
+    }
+
+    25% {
+        transform: scale(2);
+        background-color: #ffce00
+    }
+
+    50% {
+        transform: scale(1);
+        background-color: #ff431a;
+    }
+
+    75% {
+        transform: scale(2);
+        background-color: #e2ff00;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #00ddb8;
+    }
+}
+
+/*CIRKEL 2 DIE TRILT*/
+.cirkel2 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: black;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+.cirkel2:hover {
+    animation: shake 2s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px);
+        background-color: #e20087;
+    }
+
+    10% {
+        transform: translate(-1px, -2px);
+        background-color: #ff431a;
+    }
+
+    20% {
+        transform: translate(-3px, 0px);
+        background-color: #e20087;
+    }
+
+    30% {
+        transform: translate(3px, 2px);
+        background-color: #ff431a;
+    }
+
+    40% {
+        transform: translate(1px, -1px);
+        background-color: #e20087;
+    }
+
+    50% {
+        transform: translate(-1px, 2px);
+        background-color: #ff431a;
+    }
+
+    60% {
+        transform: translate(-3px, 1px);
+        background-color: #e20087;
+    }
+
+    70% {
+        transform: translate(3px, 1px);
+        background-color: #ff431a;
+    }
+
+    80% {
+        transform: translate(-1px, -1px);
+        background-color: #e20087;
+    }
+
+    90% {
+        transform: translate(1px, 2px);
+        background-color: #ff431a;
+    }
+
+    100% {
+        transform: translate(1px, -2px);
+        background-color: #e20087;
+    }
+}
+
+
+/*CIRKEL 3 DIE BOUNCT*/
+.cirkel3 {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: black;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.cirkel3:hover {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+        background-color: #00ddb8;
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+        background-color: #00ddb8;
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
+        background-color: #00ddb8;
+    }
+
+    50% {
+        transform: scale(1, 1) translateY(0);
+        background-color: #ff431a;
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-10px);
+        background-color: #00ddb8;
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+        background-color: #ff431a;
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+        background-color: #ff431a;
+    }
+}
+
+
+/*CIRKEL 4 DIE MORPHT*/
+.cirkel4 {
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: black;
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+}
+
+.cirkel4:hover {
+    animation: morph 4s linear infinite;
+}
+
+@keyframes morph {
+    0% {
+        transform: scale(1, 1);
+        background-color: #e20087;
+    }
+
+    10% {
+        transform: scale(1.1, 1.3);
+        background-color: #e20087;
+    }
+
+    20% {
+        transform: scale(1.2, 1.9);
+        background-color: #e20087;
+    }
+
+    30% {
+        transform: scale(2, 1.2);
+        background-color: #e200ff;
+    }
+
+    40% {
+        transform: scale(1.6, 1.3);
+        background-color: #e200ff;
+    }
+
+    50% {
+        transform: scale(1.5, 1.4);
+        background-color: #e200ff;
+    }
+
+    60% {
+        transform: scale(1.4, 1.5);
+        background-color: #e20087;
+    }
+    70% {
+        transform: scale(1.2, 1.8);
+        background-color: #e20087;
+    }
+    80% {
+        transform: scale(1.1, 1.9);
+        background-color: #e20087;
+    }
+    90% {
+        transform: scale(1.9, 1.2);
+        background-color: #e200ff;
+    }
+    100% {
+        transform: scale(1.1, 1.1);
+        background-color: #e200ff;
+    }
+}
+
+/*CIRKEL 5 DIE VERSCHIJNT*/
+.cirkel5 {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: black;
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+}
+
+.cirkel5:hover {
+    animation: appear 10s linear infinite;
+}
+
+@keyframes appear {
+    0% {
+        background-color: #ffffff;
+    }
+    100% {
+        background-color: #e200ff;
+    }
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.formulaImg {
+    position: absolute;
+    z-index: 10;
+    width: 125px;
+    height: 125px;
+    bottom: 46.5%;
+    left: 16.3%;
+    border-radius: 100%;
+}
+
+
+
+
 
 /*CLASSES FOR JAVASCRIPT*/
 .oranje {
@@ -250,11 +597,3 @@ button:hover {
 .middenRoze {
     fill: #d30088;
 }
-
-
-
-
-
-
-
-
