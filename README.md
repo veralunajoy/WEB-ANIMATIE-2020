@@ -16,9 +16,22 @@ Allereerst moest ik het natuurlijk na-maken in Illustrator!
 
 <img  height="200" src="images/illustrator.png" alt="">
 
-Omdat het design in zwart-wit (en grijs) is, wou ik natuurlijk wat kleur toevoegen! Mijn idee was om elk diagrammetje een eigen kleur te geven. De kleur komt tevoorschijn met een ```:hover``` en ze krijgen allemaal kleur als je op de knop klikt.
+Omdat het design in zwart-wit (en grijs) is, wou ik natuurlijk wat kleur toevoegen! Mijn idee was om elk diagrammetje een eigen kleur te geven. De kleur komt tevoorschijn met een ```:hover``` en ze krijgen allemaal kleur als je op de knop ```in color```klikt.
 
 <img  height="200" src="images/hover.png" alt="">
+
+<img  height="200" src="images/click.png" alt="">
+
+Verder heb ik extra cirkels in verschillende grotes toegevoegd. Ieder met een eigen interactie. Ik zal hieronder een paar uitleggen, maar de rest blijft een verassing...
+De eerste cirkel wordt groter en kleiner als je eroverheen hovert. Ook verandert hij van kleur.
+
+<img  height="200" src="images/cirkel1.png" alt="">
+
+De tweede cirkel trilt en verandert ook van kleur.
+
+<img  height="200" src="images/cirkel2.png" alt="">
+
+Ik zal alleen verklappen dat er één cirkel is met een speciale verassing...
 
 ## **BRONNEN**
 * Info over Venn Diagram en afbeeldingen: https://www.lucidchart.com/pages/nl/wat-is-een-venndiagram
@@ -28,3 +41,5 @@ Omdat het design in zwart-wit (en grijs) is, wou ik natuurlijk wat kleur toevoeg
 * Afbeelding boek: https://www.phaidon.com/resource/9780714873848-photo-1.jpg 
 * Afbeelding Boolean Operators: https://i.pinimg.com/originals/17/a8/aa/17a8aa62c4bb9da23cd765ce3986bdf0.jpg
 * Hulp bij svg: https://css-tricks.com/svg-properties-and-css/#:~:text=There%20are%20many%20Scalable%20Vector,as%20font%2Dsize%20or%20opacity%20.
+* Shake transition: https://www.w3schools.com/howto/howto_css_shake_image.asp
+* Bounce transition: https://css-tricks.com/making-css-animations-feel-natural/
